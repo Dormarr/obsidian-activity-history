@@ -12,7 +12,7 @@
   let endDate = `${year}/12/31`;
 
   let monthlabel = [
-    "",
+    "Jan",
     "Feb",
     "Mar",
     "Apr",
@@ -27,20 +27,7 @@
   ];
 
   if(type == "monthly"){
-    monthlabel = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
-  ];
+    monthlabel;
   }
 </script>
 
